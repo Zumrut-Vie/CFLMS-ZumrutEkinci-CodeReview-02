@@ -1,0 +1,211 @@
+/*@media screen and (max-width: 480px)
+    .row
+        display: flex
+        flex-flow: column;
+        banner:none;
+
+*/
+
+
+/*/Header*/
+#header {
+	background-color: #59181A;
+	width:100%;
+	height:8vw;
+}
+
+
+#logo {
+	width:12vw;
+	position: absolute;
+	left:2.5vw;
+	top:3vw;
+}
+
+
+#bannerHead {
+    width:35vw;
+    position:absolute;
+    right:2vw;
+    top:2vw;
+    text-align: center;
+   
+}
+
+/*Navbar*/
+nav {
+	height:2vw;
+	background-color: black;
+	text-align: left;
+
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+	margin-left:2.5vw;
+
+}
+
+figcaption a{
+	text-decoration: none;
+	color: white;
+}
+
+
+nav li, ul {
+	display: inline;
+}
+
+
+#date
+    {
+	position:absolute;
+    right:2vw;
+}
+
+br{
+	line-height: 1em;
+}
+
+/*Title1*/
+h2 {
+	/*position:absolute;
+    left:2vw;
+    right: 2vw;*/
+	background-color: #DDDDDD;
+	font-size: 1em;
+	height:2vw;
+	font-weight: lighter;
+	color:#6B6B6B;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+/*Body Container*/
+ .body_container{
+        	margin: auto;
+           justify-content: space-between;
+        }
+
+
+/*Image Container*/
+.img_container{
+        	display: flex;
+            justify-content: space-between;
+        	width: 80%;
+        }
+
+/*Images and Captions*/
+
+.images{
+	width: 10em;
+	height: 8em;
+	padding: %10;
+
+
+}
+
+
+figcaption{
+	font-size: 90%;
+	color: white;
+	background-color: black;
+}
+
+
+.images2{
+	width: 20em;
+	height: 10em;
+	
+	
+}
+
+
+#bannerhor{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.img_sub{
+width: 100%;
+}
+
+.img_sub_1{
+	display:inline-flex;
+}	
+
+.img_sub_1 figure{
+	width: 33%;
+	display: table;
+	margin: 0 5px; 
+}	
+
+.img_sub_1 figure figcaption{
+display:table-caption;
+caption-side:bottom;
+transform: translateY(-5px);
+}	
+
+
+.img_sub_2{
+	display: flex;
+	margin: 0 5px;
+
+}
+
+.img_sub_2 figure{
+	width: 55%;
+	display: table;
+	margin:0;
+	max-width: 100%;
+	padding: 0 20px 50px 0px;
+
+}
+
+.img_sub_2 figure figcaption{
+	
+	caption-side: bottom;
+	display: inline-block;
+	line-height: 5em;
+
+
+}
+
+footer{
+	background-color: black;
+	width:100%;
+	height:8vw;
+
+
+}
+
+footer nav{
+	display: flex;
+	flex-direction: column;
+	left:2.5vw;
+	top:3vw;
+	
+
+}
+
+#logoSmall{
+    width:10vw;
+    position:absolute;
+    right:2vw;
+    
+  
+}
+
+footer span {
+	position: absolute;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	margin: 0;
+	left:40vw;
+}
